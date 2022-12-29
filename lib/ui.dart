@@ -49,7 +49,7 @@ class MyFlutterState extends State<MyFlutterApp> {
     // Try to load audio from a source and catch any errors.
     try {
       await _player.setAudioSource(AudioSource.uri(Uri.parse(
-          "https://cdn.jsdelivr.net/gh/superggfun/Escaping-the-Prison")));
+          "https://cdn.jsdelivr.net/gh/superggfun/Escaping-the-Prison/assets/music.mp3")));
     } catch (e) {
       print("Error loading audio source: $e");
     }
